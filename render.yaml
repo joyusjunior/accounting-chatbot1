@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: accounting-bot
+    env: static
+    buildCommand: echo "No build needed for HTML!"
+    staticPublishPath: ./index.html
